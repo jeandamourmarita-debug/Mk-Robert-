@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer ring -->
+    <path
+        android:pathData="M100,20 A80,80 0 1,1 99.9,20"
+        android:strokeColor="#1E2A3F"
+        android:strokeWidth="4"
+        android:fillColor="#00000000" />
+
+    <!-- Face plate -->
+    <path
+        android:pathData="M100,35 A65,65 0 1,1 99.9,35"
+        android:fillColor="#121826"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2" />
+
+    <!-- Left eye -->
+    <path
+        android:pathData="M70,95 m-10,0 a10,10 0 1,1 20,0 a10,10 0 1,1 -20,0"
+        android:fillColor="#00E5FF" />
+
+    <!-- Right eye -->
+    <path
+        android:pathData="M130,95 m-10,0 a10,10 0 1,1 20,0 a10,10 0 1,1 -20,0"
+        android:fillColor="#00E5FF" />
+
+    <!-- Mouth (calm flat line) -->
+    <path
+        android:pathData="M75,130 L125,130"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+</vector>

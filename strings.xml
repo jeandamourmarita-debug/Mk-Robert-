@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MK Robot Assistant</string>
+    <string name="settings_title">Igenamiterere / Settings</string>
+
+    <!-- Status strings shown under the robot face -->
+    <string name="status_idle">Ntegereje…</string>
+    <string name="status_listening">Ndumva…</string>
+    <string name="status_thinking">Ndabitekerezaho…</string>
+    <string name="status_acting">Ndimo gukora…</string>
+    <string name="status_done">Byarangiye.</string>
+    <string name="status_error">Habaye ikibazo. Ongera ugerageze.</string>
+
+    <string name="hint_recognized_command">Icyo wavuze / Command aho:</string>
+    <string name="btn_mic_content_desc">Kanda uvuge</string>
+    <string name="btn_settings_content_desc">Igenamiterere</string>
+    <string name="lang_switch_content_desc">Hindura ururimi</string>
+
+    <string name="settings_api_key_label">AI API Key</string>
+    <string name="settings_api_key_hint">Shyiramo API key yawe (ntizakoreshwa iyo ari ubusa)</string>
+    <string name="settings_save">Bika / Save</string>
+    <string name="settings_saved_toast">Byabitswe.</string>
+
+    <string name="confirm_dialog_title">Emeza igikorwa</string>
+    <string name="confirm_dialog_yes">Yego</string>
+    <string name="confirm_dialog_no">Oya</string>
+
+    <string name="permission_rationale_mic">Dukeneye uruhushya rwo kumva ijwi kugira ngo ubashe kuvugana n\'umufasha wawe.</string>
+    <string name="permission_rationale_call">Dukeneye uruhushya rwo guhamagara kugira ngo dushobore guhamagara abo mu makonti yawe igihe ubisabye.</string>
+    <string name="permission_rationale_contacts">Dukeneye uruhushya rwo kureba amakonti kugira ngo tumenye uwo uvuze izina rye.</string>
+    <string name="permission_rationale_sms">Dukeneye uruhushya rwo kohereza ubutumwa kugira ngo twandikire uwo ubwira.</string>
+    <string name="permission_rationale_camera">Dukeneye uruhushya rwa kamera kugira ngo tuyifungure iyo ubisabye.</string>
+</resources>
